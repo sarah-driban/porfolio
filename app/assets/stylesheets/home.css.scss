@@ -1,3 +1,280 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* - - - - -  COLORS  - - - - - */
+/*
+
+"Oswald", sans-serif;
+"Arvo", serif;
+
+
+gold: #F6BD18;
+yellow: #FFDC11;
+lime: #B8BD35;
+peach: #F48875;
+pink: #B1245A; (177, 36, 90)
+grey: #C1B8AE;
+white: #FFF;
+charcoal: #545251;
+*/
+
+/*=======================
+  CLEARS
+=========================*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+.clear {
+  clear: both;
+}
+
+/*==========
+HOME SCREEN AND CONTENT
+==========================*/
+
+.first-container{
+  background: url(http://sarahdriban.com/site2/img/texture.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 6.5em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 150px 0 100px 0;
+}
+
+.home {
+  height: 700px;
+  width: 100%;
+}
+
+.filler {
+  height: 1px;
+}
+
+.content{
+  margin: 30px 30px 0 30px;
+}
+
+.social {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 12px;
+}
+
+img.original {
+  display:block;
+  position: relative;
+}
+
+.media a:hover img.original {
+  display: none;
+}
+
+.media a:hover img.pink {
+  display: block;
+}
+
+img.pink {
+  display: none;
+}
+
+.button1 {
+  height: 21px;
+  background-color: #C1B8AE;
+  padding: 17px 5px;
+}
+
+.button1 p {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  color: #FFFFFF;
+  width: 196px;
+  text-align: center;
+  float: left;
+  text-transform: uppercase;
+}
+
+.button1 img {
+  width: 22px;
+  float: right;
+}
+
+.button1:hover {
+  background-color: #B1245A;
+
+}
+
+.portfolio {
+  width: 100%;
+  height: 700px;
+  background-color: #FFF;
+}
+
+/*==========
+Side Bar NAVIGATION
+==========================*/
+
+.nav {
+  background-color: rgb(177, 36, 90);
+  width: 240px;
+  height: 640px;
+  padding: 30px;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+
+.nav p, .nav a {
+  font-family: "Arvo", serif;
+  color: #C1B8AE;
+  margin: 15px 0;
+  line-height: 2em;
+}
+
+.nav ul {
+  margin: 20px 0;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.nav li {
+  font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #FFF;
+  list-style: none;
+  line-height: 1em;
+  margin: 40px 0 40px -8px;
+  padding: 6px 0 6px 8px;
+}
+
+.nav a:hover{
+  color:#B8BD35;
+}
+
+.nav li:hover {
+  background-color: #B8BD35;
+  cursor: pointer;
+}
+
+
+
+
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 44px;
+  left: 18px;
+  right: 18px;
+  height: 8px;
+  background: white;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #fff;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -20px;
+}
+
+.c-hamburger span::after {
+  bottom: -20px;
+}
+
+.c-hamburger--htx {
+  background-color: #ff3264;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s 0.3s;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background-color: #cb0032;
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s;
+}
