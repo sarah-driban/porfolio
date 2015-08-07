@@ -10,7 +10,7 @@ $charcoal: #545251;
 
 
 $arvo: 'Arvo', serif;
-$oswald: "Oswald";
+$oswald: 'Oswald', sans-serif;
 
 @mixin transition($time) {
   -webkit-transition: $time;
