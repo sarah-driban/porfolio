@@ -1,13 +1,20 @@
-//
-//gold: #F6BD18;
-//yellow: #FFDC11;
-//lime: #B8BD35;
-//peach: #F48875;
-//pink: #B1245A; (177, 36, 90)
-//grey: #C1B8AE;
-//white: #FFF;
-//charcoal: #545251;
-//
-//
-//font-family: 'Arvo', serif;
-//font-family: 'Oswald', sans-serif;
+
+$gold: #F6BD18;
+$yellow: #FFDC11;
+$lime: #B8BD35;
+$peach: #F48875;
+$pink: #B1245A; (177, 36, 90)
+$grey: #C1B8AE;
+$white: #FFF;
+$charcoal: #545251;
+
+
+$arvo: 'Arvo', serif;
+$oswald: "Oswald";
+
+@mixin transition($time) {
+  -webkit-transition: $time;
+  -moz-transition: $time;
+  -ms-transition: $time;
+  transition: $time;
+}

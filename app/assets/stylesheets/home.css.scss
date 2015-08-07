@@ -1,20 +1,3 @@
-/* - - - - -  COLORS  - - - - - */
-/*
-
-"Oswald", sans-serif;
-"Arvo", serif;
-
-
-gold: #F6BD18;
-yellow: #FFDC11;
-lime: #B8BD35;
-peach: #F48875;
-pink: #B1245A; (177, 36, 90)
-grey: #C1B8AE;
-white: #FFF;
-charcoal: #545251;
-*/
-
 /*=======================
   CLEARS
 =========================*/
@@ -51,10 +34,10 @@ HOME SCREEN AND CONTENT
 }
 
 .title {
-  font-family: "Oswald", sans-serif;
+  font-family: $oswald;
   text-align: center;
   font-size: 6.5em;
-  color: #FFFFFF;
+  color: $white;
   text-transform: uppercase;
   font-weight: 700;
   margin: 150px 0 100px 0;
@@ -99,15 +82,15 @@ img.pink {
 
 .button1 {
   height: 21px;
-  background-color: #C1B8AE;
+  background-color: $grey;
   padding: 17px 5px;
 }
 
 .button1 p {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $oswald;
   font-size: 1.1em;
   letter-spacing: .07em;
-  color: #FFFFFF;
+  color: $white;
   width: 196px;
   text-align: center;
   float: left;
@@ -120,14 +103,14 @@ img.pink {
 }
 
 .button1:hover {
-  background-color: #B1245A;
+  background-color: $pink;
 
 }
 
 .portfolio {
   width: 100%;
   height: 700px;
-  background-color: #FFF;
+  background-color: $white;
 }
 
 /*==========
@@ -135,7 +118,7 @@ Side Bar NAVIGATION
 ==========================*/
 
 .nav {
-  background-color: rgb(177, 36, 90);
+  background-color: $pink;
   width: 240px;
   height: 640px;
   padding: 30px;
@@ -145,8 +128,8 @@ Side Bar NAVIGATION
 }
 
 .nav p, .nav a {
-  font-family: "Arvo", serif;
-  color: #C1B8AE;
+  font-family: $arvo;
+  color: $grey;
   margin: 15px 0;
   line-height: 2em;
 }
@@ -160,10 +143,10 @@ Side Bar NAVIGATION
 }
 
 .nav li {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $oswald;
   text-transform: uppercase;
   font-size: 2em;
-  color: #FFF;
+  color: $white;
   list-style: none;
   line-height: 1em;
   margin: 40px 0 40px -8px;
@@ -171,110 +154,31 @@ Side Bar NAVIGATION
 }
 
 .nav a:hover{
-  color:#B8BD35;
+  color: $lime;
 }
 
 .nav li:hover {
-  background-color: #B8BD35;
+  background-color:$lime;
   cursor: pointer;
 }
 
 
 
 
-.c-hamburger {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  width: 96px;
-  height: 96px;
-  font-size: 0;
-  text-indent: -9999px;
-  appearance: none;
-  box-shadow: none;
-  border-radius: none;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s;
-}
 
-.c-hamburger:focus {
-  outline: none;
-}
 
-.c-hamburger span {
-  display: block;
-  position: absolute;
-  top: 44px;
-  left: 18px;
-  right: 18px;
-  height: 8px;
-  background: white;
-}
+body{
+  .container{
+    .subNav{
+      position: fixed;
+      display: none;
+      @include transition(.3s);
+      &.show{
+        display: block;
+      }
+      &:hover{
 
-.c-hamburger span::before,
-.c-hamburger span::after {
-  position: absolute;
-  display: block;
-  left: 0;
-  width: 100%;
-  height: 8px;
-  background-color: #fff;
-  content: "";
-}
-
-.c-hamburger span::before {
-  top: -20px;
-}
-
-.c-hamburger span::after {
-  bottom: -20px;
-}
-
-.c-hamburger--htx {
-  background-color: #ff3264;
-}
-
-.c-hamburger--htx span {
-  transition: background 0s 0.3s;
-}
-
-.c-hamburger--htx span::before,
-.c-hamburger--htx span::after {
-  transition-duration: 0.3s, 0.3s;
-  transition-delay: 0.3s, 0s;
-}
-
-.c-hamburger--htx span::before {
-  transition-property: top, transform;
-}
-
-.c-hamburger--htx span::after {
-  transition-property: bottom, transform;
-}
-
-/* active state, i.e. menu open */
-.c-hamburger--htx.is-active {
-  background-color: #cb0032;
-}
-
-.c-hamburger--htx.is-active span {
-  background: none;
-}
-
-.c-hamburger--htx.is-active span::before {
-  top: 0;
-  transform: rotate(45deg);
-}
-
-.c-hamburger--htx.is-active span::after {
-  bottom: 0;
-  transform: rotate(-45deg);
-}
-
-.c-hamburger--htx.is-active span::before,
-.c-hamburger--htx.is-active span::after {
-  transition-delay: 0s, 0.3s;
+      }
+    }
+  }
 }
