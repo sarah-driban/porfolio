@@ -1,3 +1,4 @@
+
 /*=======================
   CLEARS
 =========================*/
@@ -34,10 +35,10 @@ HOME SCREEN AND CONTENT
 }
 
 .title {
-  font-family: $oswald;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 6.5em;
-  color: $white;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
   margin: 150px 0 100px 0;
@@ -82,15 +83,15 @@ img.pink {
 
 .button1 {
   height: 21px;
-  background-color: $grey;
+  background-color: #C1B8AE;
   padding: 17px 5px;
 }
 
 .button1 p {
-  font-family: "Oswald";
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 1.1em;
   letter-spacing: .07em;
-  color: $white;
+  color: #FFFFFF;
   width: 196px;
   text-align: center;
   float: left;
@@ -103,14 +104,14 @@ img.pink {
 }
 
 .button1:hover {
-  background-color: $pink;
+  background-color: #B1245A;
 
 }
 
 .portfolio {
   width: 100%;
   height: 700px;
-  background-color: $white;
+  background-color: #FFF;
 }
 
 /*==========
@@ -118,7 +119,7 @@ Side Bar NAVIGATION
 ==========================*/
 
 .nav {
-  background-color: $pink;
+  background-color: rgb(177, 36, 90);
   width: 240px;
   height: 640px;
   padding: 30px;
@@ -128,8 +129,8 @@ Side Bar NAVIGATION
 }
 
 .nav p, .nav a {
-  font-family: "Arvo";
-  color: $grey;
+  font-family: "Arvo", serif;
+  color: #C1B8AE;
   margin: 15px 0;
   line-height: 2em;
 }
@@ -143,10 +144,10 @@ Side Bar NAVIGATION
 }
 
 .nav li {
-  font-family: "Oswald";
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 2em;
-  color: $white;
+  color: #FFF;
   list-style: none;
   line-height: 1em;
   margin: 40px 0 40px -8px;
@@ -154,31 +155,12 @@ Side Bar NAVIGATION
 }
 
 .nav a:hover{
-  color: $lime;
+  color: #FFF;
 }
 
 .nav li:hover {
-  background-color:$lime;
+  background-color: #B8BD35;
   cursor: pointer;
 }
 
 
-
-
-
-
-body{
-  .container{
-    .subNav{
-      position: fixed;
-      display: none;
-      @include transition(.3s);
-      &.show{
-        display: block;
-      }
-      &:hover{
-
-      }
-    }
-  }
-}
