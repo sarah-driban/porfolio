@@ -146,12 +146,16 @@ Side Bar NAVIGATION
   position: fixed;
   right: 0;
   z-index: 100;
+  display: none;
 }
 
 .nav p, .nav a {
   font-family: $arvo;
   color: $grey;
   margin: 15px 0;
+}
+
+.nav a {
   line-height: 2em;
 }
 
@@ -187,3 +191,23 @@ Side Bar NAVIGATION
   margin: 0 0 0 -40px;
 }
 
+.toggle-out {
+}
+
+.fa-times {
+  float: right;
+  color: $white;
+  cursor: pointer;
+}
+
+.upper {
+  float:left;
+}
+
+.fa-bars {
+  float: right;
+  color: $white;
+  z-index: 110;
+  margin: 35px 0 0 0;
+  cursor: pointer;
+}

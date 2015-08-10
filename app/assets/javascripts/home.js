@@ -21,3 +21,16 @@
 })();/**
  * Created by sdriban on 8/7/15.
  */
+
+$(function() {
+
+    $('#open').on('click', function() {
+        $('.nav').toggle();
+        $('.fa-bars').toggle();
+    });
+
+    $('#close').on('click', function() {
+        $('.nav').toggle();
+        $('.fa-bars').toggle();
+    });
+})
