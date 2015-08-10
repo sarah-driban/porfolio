@@ -1,12 +1,12 @@
 
-@mixin gold {color: #F6BD18;}
-@mixin yellow {color: #FFDC11;}
-@mixin lime {color: #B8BD35;}
-@mixin peach {color: #F48875;}
-@mixin pink {color: #B1245A; }
-@mixin grey {color: #C1B8AE;}
-@mixin white {color: #FFF;}
-@mixin charcoal {color: #545251;}
+$gold: #F6BD18;
+$yellow: #FFDC11;
+$lime: #B8BD35;
+$peach: #F48875;
+$pink: #B1245A;
+$sd-grey: #C1B8AE;
+$white: #FFF;
+$charcoal: #545251;
 
 
 @mixin arvo {font-family: 'Arvo', serif;}

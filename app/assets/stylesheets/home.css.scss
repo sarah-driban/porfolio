@@ -1,3 +1,19 @@
+/*=======================
+  VARIABLES
+=========================*/
+
+$gold: #F6BD18;
+$yellow: #FFDC11;
+$lime: #B8BD35;
+$peach: #F48875;
+$pink: #B1245A;
+$grey: #C1B8AE;
+$white: #FFF;
+$charcoal: #545251;
+
+$arvo: 'Arvo', serif;
+$oswald: 'Oswald', sans-serif;
+
 
 /*=======================
   CLEARS
@@ -38,7 +54,7 @@ HOME SCREEN AND CONTENT
   font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 6.5em;
-  color: #FFFFFF;
+  color: $white;
   text-transform: uppercase;
   font-weight: 700;
   margin: 150px 0 100px 0;
@@ -83,15 +99,15 @@ img.pink {
 
 .button1 {
   height: 21px;
-  background-color: #C1B8AE;
+  background-color: $grey;
   padding: 17px 5px;
 }
 
 .button1 p {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $oswald;
   font-size: 1.1em;
   letter-spacing: .07em;
-  color: #FFFFFF;
+  color: $white;
   width: 196px;
   text-align: center;
   float: left;
@@ -104,14 +120,14 @@ img.pink {
 }
 
 .button1:hover {
-  background-color: #B1245A;
+  background-color: $pink;
 
 }
 
 .portfolio {
   width: 100%;
   height: 700px;
-  background-color: #FFF;
+  background-color: $white;
 }
 
 /*==========
@@ -129,8 +145,8 @@ Side Bar NAVIGATION
 }
 
 .nav p, .nav a {
-  font-family: "Arvo", serif;
-  color: #C1B8AE;
+  font-family: $arvo;
+  color: $grey;
   margin: 15px 0;
   line-height: 2em;
 }
@@ -144,10 +160,10 @@ Side Bar NAVIGATION
 }
 
 .nav li {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $oswald;
   text-transform: uppercase;
   font-size: 2em;
-  color: #FFF;
+  color: $white;
   list-style: none;
   line-height: 1em;
   margin: 40px 0 40px -8px;
@@ -155,11 +171,11 @@ Side Bar NAVIGATION
 }
 
 .nav a:hover{
-  color: #FFF;
+  color: $lime;
 }
 
 .nav li:hover {
-  background-color: #B8BD35;
+  background-color: $lime;
   cursor: pointer;
 }
 
