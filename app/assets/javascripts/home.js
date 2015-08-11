@@ -25,12 +25,12 @@
 $(function() {
 
     $('#open').on('click', function() {
-        $('.nav').toggle();
-        $('.fa-bars').toggle();
+        $('.nav').animate({'marginLeft':0},800);
+
     });
 
     $('#close').on('click', function() {
-        $('.nav').toggle();
-        $('.fa-bars').toggle();
+        $('.nav').animate({width: 'toggle'},800);
+
     });
 })
