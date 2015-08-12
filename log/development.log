@@ -10268,3 +10268,86 @@ WARNING: On line 3 of /Users/sdriban/Documents/SITES/portfolio/app/assets/styles
 
 
 method=GET path=/ format=html controller=home action=index status=200 duration=99.47 view=99.29 db=0.00
+WARNING: On line 2 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "12cols"'.
+  Candidates:
+    12cols.css
+    12cols.css.scss
+  For now I'll choose 12cols.css.
+  This will be an error in future versions of Sass.
+
+
+WARNING: On line 3 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "col"'.
+  Candidates:
+    col.css
+    col.css.scss
+  For now I'll choose col.css.
+  This will be an error in future versions of Sass.
+
+
+method=GET path=/ format=html controller=home action=index status=200 duration=187.78 view=187.06 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=62.45 view=62.19 db=0.00
+WARNING: On line 2 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "12cols"'.
+  Candidates:
+    12cols.css
+    12cols.css.scss
+  For now I'll choose 12cols.css.
+  This will be an error in future versions of Sass.
+
+
+WARNING: On line 3 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "col"'.
+  Candidates:
+    col.css
+    col.css.scss
+  For now I'll choose col.css.
+  This will be an error in future versions of Sass.
+
+
+method=GET path=/ format=html controller=home action=index status=200 duration=78.62 view=78.34 db=0.00
+WARNING: On line 2 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "12cols"'.
+  Candidates:
+    12cols.css
+    12cols.css.scss
+  For now I'll choose 12cols.css.
+  This will be an error in future versions of Sass.
+
+
+WARNING: On line 3 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "col"'.
+  Candidates:
+    col.css
+    col.css.scss
+  For now I'll choose col.css.
+  This will be an error in future versions of Sass.
+
+
+method=GET path=/ format=html controller=home action=index status=200 duration=151.21 view=150.93 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=40.07 view=39.84 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=42.39 view=42.15 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=6.61 view=6.39 db=0.00
+WARNING: On line 2 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "12cols"'.
+  Candidates:
+    12cols.css
+    12cols.css.scss
+  For now I'll choose 12cols.css.
+  This will be an error in future versions of Sass.
+
+
+WARNING: On line 3 of /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:
+  It's not clear which file to import for '@import "col"'.
+  Candidates:
+    col.css
+    col.css.scss
+  For now I'll choose col.css.
+  This will be an error in future versions of Sass.
+
+
+method=GET path=/ format=html controller=home action=index status=200 duration=134.92 view=134.78 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=6.58 view=6.34 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.91 view=5.77 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=6.30 view=6.09 db=0.00

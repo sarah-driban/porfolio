@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8573e55-a652-4b74-8ddf-4ec0a539c66a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sarah-portfolio" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1c9faaf28d05409b88ad3113374d613c" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1c9faaf28d05409b88ad3113374d613c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a9f028f7a492b5907ed80268be8f50f4" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a9f028f7a492b5907ed80268be8f50f4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/320950f409dc5011311af6212facef42075cbabe/application.css.scssc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/320950f409dc5011311af6212facef42075cbabe/application.css.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b878faf942403e313a5b103e5d80488e" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b878faf942403e313a5b103e5d80488e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" />
@@ -16,6 +16,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/home.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portfolio.iws" />
@@ -41,21 +43,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.97197896">
+              <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6554622">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -64,8 +66,8 @@
       <file leaf-file-name="home.css.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.416667">
-              <caret line="148" column="4" selection-start-line="148" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="390" column="1" selection-start-line="390" selection-start-column="1" selection-end-line="390" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -92,6 +94,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,10 +122,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/12cols.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/col.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/home.js" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
       </list>
     </option>
   </component>
@@ -158,6 +166,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -331,7 +340,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,32 +607,38 @@
       <option name="project" value="LOCAL" />
       <updated>1439231563164</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="animating nav">
+      <created>1439309575850</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1439309575850</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="23" width="1199" height="718" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27139154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27571306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -643,13 +657,46 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="mixins&#10;" />
     <MESSAGE value="adding columns" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding columns" />
+    <MESSAGE value="animating nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="animating nav" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="390" column="1" selection-start-line="390" selection-start-column="1" selection-end-line="390" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -741,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28896672">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,26 +945,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.416667">
-          <caret line="148" column="4" selection-start-line="148" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="390" column="1" selection-start-line="390" selection-start-column="1" selection-end-line="390" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6554622">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97197896">
+          <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
           <folding />
         </state>
       </provider>
