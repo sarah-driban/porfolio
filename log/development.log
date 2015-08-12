@@ -10351,3 +10351,6 @@ method=GET path=/ format=html controller=home action=index status=200 duration=1
 method=GET path=/ format=html controller=home action=index status=200 duration=6.58 view=6.34 db=0.00
 method=GET path=/ format=html controller=home action=index status=200 duration=5.91 view=5.77 db=0.00
 method=GET path=/ format=html controller=home action=index status=200 duration=6.30 view=6.09 db=0.00
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+method=GET path=/ format=html controller=home action=index status=200 duration=54.97 view=54.57 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=73.73 view=73.45 db=0.00
