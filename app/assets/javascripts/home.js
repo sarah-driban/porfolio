@@ -22,17 +22,18 @@
  * Created by sdriban on 8/7/15.
  */
 
+
 $(function() {
 
-    $('#open').on('click', function() {
-        $('.nav').animate({width: 'toggle'},800);
+    $('#open-button').on('click', function() {
+        $(".nav").addClass("is-active");
+        $(".black-mask").addClass("is-active");
 
     });
 
-    $('#close').on('click', function() {
-        $('.nav').animate({width: 'toggle'},800);
+    $('#close-button').on('click', function() {
+        $(".nav").removeClass("is-active");
+        $(".black-mask").removeClass("is-active");
 
     });
 })
-
-

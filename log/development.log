@@ -10354,3 +10354,34 @@ method=GET path=/ format=html controller=home action=index status=200 duration=6
 DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138)
 method=GET path=/ format=html controller=home action=index status=200 duration=54.97 view=54.57 db=0.00
 method=GET path=/ format=html controller=home action=index status=200 duration=73.73 view=73.45 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=131.06 view=130.78 db=0.00
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+method=GET path=/ format=html controller=home action=index status=200 duration=61.14 view=60.79 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=7.89 view=7.69 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=125.10 view=124.86 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=88.07 view=87.90 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=83.30 view=83.07 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=77.37 view=77.15 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=68.36 view=68.11 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=35.96 view=35.76 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=39.04 view=38.91 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=35.95 view=35.80 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=41.83 view=41.69 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=37.75 view=37.58 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=42.99 view=42.55 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=40.33 view=40.15 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=117.45 view=117.23 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=69.35 view=69.19 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=77.00 view=76.84 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=41.25 view=41.03 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=62.93 view=62.72 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=80.40 view=80.18 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=75.79 view=75.50 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=75.97 view=75.77 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=82.08 view=81.92 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=76.30 view=75.92 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=66.40 view=66.24 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=73.89 view=73.66 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=68.60 view=68.38 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=78.14 view=77.85 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=42.34 view=42.19 db=0.00
