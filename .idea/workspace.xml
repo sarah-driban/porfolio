@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8573e55-a652-4b74-8ddf-4ec0a539c66a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1c9faaf28d05409b88ad3113374d613c" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1c9faaf28d05409b88ad3113374d613c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a9f028f7a492b5907ed80268be8f50f4" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a9f028f7a492b5907ed80268be8f50f4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b878faf942403e313a5b103e5d80488e" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b878faf942403e313a5b103e5d80488e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/cffd775d018f68ce5dba1ee0d951a994" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/cffd775d018f68ce5dba1ee0d951a994" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/320950f409dc5011311af6212facef42075cbabe/home.css.scssc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/320950f409dc5011311af6212facef42075cbabe/home.css.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/home.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -37,21 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.55341506">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.css.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31698775">
-              <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+            <state vertical-scroll-proportion="-20.041666">
+              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -613,13 +610,20 @@
       <option name="project" value="LOCAL" />
       <updated>1439477951392</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="img linking">
+      <created>1439559938141</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1439559938141</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="23" width="1199" height="718" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -634,7 +638,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -660,7 +663,8 @@
     <MESSAGE value="animating nav" />
     <MESSAGE value="cleaning code" />
     <MESSAGE value="adding nav animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding nav animation" />
+    <MESSAGE value="img linking" />
+    <option name="LAST_COMMIT_MESSAGE" value="img linking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1037,18 +1041,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+        <state vertical-scroll-proportion="-20.041666">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31698775">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.55341506">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
