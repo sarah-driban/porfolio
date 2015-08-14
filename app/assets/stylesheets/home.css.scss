@@ -81,22 +81,34 @@ body {
   height: 50px;
   float: left;
   margin: 25px 12px 0 12px;
+
+    img{
+      max-width: 100%;
+    }
 }
 
-img.original {
+.original {
   display:block;
   position: relative;
+
+  img{
+    max-width: 100%;
+  }
 }
 
-.media a:hover img.original {
+.media a:hover .original {
   display: none;
+
+  img{
+    max-width: 100%;
+  }
 }
 
-.media a:hover img.pink {
+.media a:hover .pink {
   display: block;
 }
 
-img.pink {
+.pink {
   display: none;
 }
 

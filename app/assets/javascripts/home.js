@@ -22,7 +22,7 @@
  * Created by sdriban on 8/7/15.
  */
 
-
+//Sliding Right Menu
 $(function() {
 
     $('#open-button').on('click', function() {
