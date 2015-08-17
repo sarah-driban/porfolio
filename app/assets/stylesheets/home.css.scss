@@ -14,6 +14,20 @@ $charcoal: #545251;
 $arvo: 'Arvo', serif;
 $oswald: 'Oswald', sans-serif;
 
+@mixin transition($time) {
+  -webkit-transition: $time;
+  -moz-transition: $time;
+  -ms-transition: $time;
+  transition: $time;
+}
+
+@mixin radius($size) {
+  border-radius: $size;
+  -moz-border-radius: $size;
+  -webkit-border-radius: $size;
+  -ms-border-radius: $size;
+}
+
 
 /*=======================
   CLEARS
@@ -76,42 +90,6 @@ body {
   margin: 0px 30px 0 30px;
 }
 
-.social {
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin: 25px 12px 0 12px;
-
-    img{
-      max-width: 100%;
-    }
-}
-
-.original {
-  display:block;
-  position: relative;
-
-  img{
-    max-width: 100%;
-  }
-}
-
-.media a:hover .original {
-  display: none;
-
-  img{
-    max-width: 100%;
-  }
-}
-
-.media a:hover .pink {
-  display: block;
-}
-
-.pink {
-  display: none;
-}
-
 .button1 {
   height: 21px;
   background-color: $grey;
@@ -131,8 +109,6 @@ body {
 }
 
 .button1 {
-
-
   img{
     width: 22px;
     float: right;  }
@@ -143,13 +119,103 @@ body {
 
 }
 
+.fa-angle-double-right {
+  color: #FFF;
+  margin: -4px 0 0 5px;
+
+}
+
 .portfolio {
   width: 100%;
   height: 700px;
   background-color: $white;
 }
 
-/*==========
+.circle {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 25px 12px 0 12px;
+  background-color: #FFF;
+  @include radius(50px);
+  text-align: center;
+
+  i {
+    font-size: 1.8em;
+    margin: 10px 0 0 0;
+    color: $gold;
+  }
+}
+
+.circle:hover {
+  background-color: $pink;
+}
+
+/*========================
+STICKY TOP NAVIGATION
+==========================*/
+
+
+.sticky-nav {
+  background-color: rgba(246,189,24,.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0px 30px 5px 30px;
+  z-index: 80;
+  transition: transform 0.5s;
+  top: 0;
+  transform: translateY(-100%);
+
+
+  //display: none;
+  //@include transition(5s);
+
+
+  .circle {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 0px 12px 0 12px;
+    @include radius(35px);
+    text-align: center;
+
+    i {
+      font-size: 1.2em;
+      margin: 7px 0 0 0;
+      color: $gold;
+    }
+  }
+
+  .fa-bars {
+    color: $white;
+    margin: 8px 75px 0 0;
+    cursor: pointer;
+    font-size: 2.5em;
+  }
+
+
+  .title {
+    font-size: 2em;
+    color: $white;
+    margin: 5px 0;
+    float: left;
+    letter-spacing: .2em;
+  }
+
+
+}
+
+.sticky-nav.is-active {
+  transform: translateY(0);
+}
+
+//.show {
+//  display: block;
+//  @include transition(5s);
+//}
+/*=========================
 Side Bar NAVIGATION
 ==========================*/
 
@@ -220,7 +286,8 @@ Side Bar NAVIGATION
   color: $white;
   cursor: pointer;
   position: fixed;
-  right: 25px;
+  right: 35px;
+  top: 7px;
 }
 
 .upper {
@@ -233,6 +300,10 @@ Side Bar NAVIGATION
   z-index: 110;
   margin: 35px 35px 0 0;
   cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: $pink;
 }
 
 body.has-active-menu {

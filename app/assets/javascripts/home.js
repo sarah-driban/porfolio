@@ -31,9 +31,25 @@ $(function() {
 
     });
 
+    $('#open-button1').on('click', function() {
+        $(".nav").addClass("is-active");
+        $(".black-mask").addClass("is-active");
+
+    });
+
     $('#close-button').on('click', function() {
         $(".nav").removeClass("is-active");
         $(".black-mask").removeClass("is-active");
 
     });
 })
+
+//Drop Down Sticky Nav at 700px
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 695) {
+        $(".sticky-nav").addClass("is-active");
+    }
+    else {
+        $(".sticky-nav").removeClass("is-active");
+    }
+});

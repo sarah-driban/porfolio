@@ -18,3 +18,10 @@ $charcoal: #545251;
   -ms-transition: $time;
   transition: $time;
 }
+
+@mixin radius($size) {
+  border-radius: $size;
+  -moz-border-radius: $size;
+  -webkit-border-radius: $size;
+  -ms-border-radius: $size;
+}
