@@ -40,7 +40,7 @@
     <div class="toggle-in">
       <i class="fa fa-bars opener" id="open-button1"></i>
     </div><!-- end toggle-in -->
-  </div>
+  </div><!-- end sticky nav-->
 
   <div class="black-mask"></div>
 
@@ -105,15 +105,24 @@
     </div><!-- end content -->
   </div> <!-- end first-container-->
 
-  <div class="second-container">
-    <div class="portfolio ">
-      <div class="col span_6_of_12">
+  <div class="portfolio">
+    <div class="content header">
+
+      <div class="header-holder"></div>
+
+      <div class="gallery section group">
+      <div class="artwork col span_6_of_12">
         <%image_tag ("artwork.jpg") %>
         <a href="#" class="image-link">Title 1</a>
       </div>
+      <div class="artwork col span_6_of_12">
+        <%image_tag ("artwork.jpg") %>
+        <a href="#" class="image-link">Another Title !</a>
+      </div>
+    </div><!-- end gallery -->
+    </div><!-- end content header -->
 
-    </div>
-  </div><!-- end second-container -->
+  </div><!-- end portfolio -->
 </div><!-- end outer-container -->
 
 </body>
