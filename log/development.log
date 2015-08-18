@@ -12410,3 +12410,259 @@ method=GET path=/ format=html controller=home action=index status=200 duration=7
 method=GET path=/ format=html controller=home action=index status=200 duration=90.77 view=90.61 db=0.00
 method=GET path=/ format=html controller=home action=index status=200 duration=5.87 view=5.72 db=0.00
 method=GET path=/ format=html controller=home action=index status=200 duration=6.61 view=6.42 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.67 view=5.51 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.51 view=5.37 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=104.57 view=104.35 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=91.28 view=91.05 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=90.68 view=90.43 db=0.00
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+method=GET path=/ format=html controller=home action=index status=200 duration=69.25 view=68.69 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=120.57 view=120.38 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=79.06 view=78.90 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=97.80 view=97.54 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=88.62 view=88.41 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=99.42 view=99.14 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.24 view=5.00 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=85.09 view=84.92 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=6.97 view=6.69 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=93.80 view=93.64 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=78.19 view=78.04 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=104.30 view=104.13 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=93.01 view=92.85 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.17 view=4.99 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=85.72 view=85.55 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=8.21 view=8.00 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=101.96 view=101.76 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=6.11 view=5.90 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=8.23 view=8.05 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=95.38 view=95.19 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=7.33 view=7.19 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.51 view=5.35 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=103.09 view=102.88 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=88.89 view=88.68 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=99.25 view=99.07 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=86.76 view=86.60 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.43 view=5.28 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=98.02 view=97.86 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=88.77 view=88.60 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=93.46 view=93.20 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=105.12 view=104.95 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=84.99 view=84.77 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=86.69 view=86.47 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=89.02 view=88.79 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.59 view=5.37 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=8.68 view=8.44 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=99.29 view=99.15 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=92.73 view=92.48 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=91.56 view=91.28 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=87.45 view=87.29 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=104.50 view=104.27 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=86.86 view=86.71 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=99.76 view=99.59 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=100.98 view=100.74 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=96.84 view=96.67 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=98.70 view=98.53 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=105.62 view=105.39 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=5.90 view=5.52 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=126.69 view=126.48 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=88.30 view=88.06 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=83.90 view=83.74 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=738.90 view=738.73 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=99.83 view=99.65 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=89.82 view=89.66 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=87.44 view=87.22 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=98.33 view=98.12 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=90.49 view=90.27 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=91.77 view=91.58 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=86.55 view=86.38 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=10.60 view=10.41 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=85.65 view=85.42 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=95.06 view=94.83 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=79.04 view=78.88 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=95.89 view=95.51 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=104.20 view=103.98 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=87.82 view=87.64 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=90.83 view=90.49 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=89.38 view=89.16 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=89.78 view=89.56 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=95.98 view=95.77 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=96.61 view=96.39 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=93.29 view=93.14 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=87.74 view=87.28 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=90.32 view=90.07 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=108.82 view=108.63 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=81.23 view=81.04 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=107.26 view=107.01 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=87.73 view=87.57 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=104.94 view=104.78 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=92.89 view=92.66 db=0.00
+method=GET path=/ format=html controller=home action=index status=500 error='ActionView::Template::Error:Invalid CSS after "  }": expected selector or at-rule, was "}"
+  (in /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:372)' duration=45.78
+
+Sass::SyntaxError - Invalid CSS after "  }": expected selector or at-rule, was "}"
+  (in /Users/sdriban/Documents/SITES/portfolio/app/assets/stylesheets/application.css.scss:372):
+  sass (3.2.14) lib/sass/scss/parser.rb:1147:in `expected'
+  sass (3.2.14) lib/sass/scss/parser.rb:1085:in `expected'
+  sass (3.2.14) lib/sass/scss/parser.rb:28:in `parse'
+  sass (3.2.14) lib/sass/engine.rb:342:in `_to_tree'
+  sass (3.2.14) lib/sass/engine.rb:274:in `to_tree'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+  sass (3.2.14) lib/sass/tree/visitors/base.rb:37:in `visit'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:100:in `visit'
+  sass (3.2.14) lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+  sass (3.2.14) lib/sass/tree/visitors/base.rb:53:in `visit_children'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+  sass (3.2.14) lib/sass/tree/visitors/base.rb:37:in `block in visit'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+  sass (3.2.14) lib/sass/tree/visitors/base.rb:37:in `visit'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:100:in `visit'
+  sass (3.2.14) lib/sass/tree/visitors/perform.rb:7:in `visit'
+  sass (3.2.14) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.2.14) lib/sass/engine.rb:315:in `_render'
+  sass (3.2.14) lib/sass/engine.rb:262:in `render'
+  sprockets (2.10.1) lib/sprockets/sass_template.rb:53:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:113:in `block in stylesheet_link_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:112:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___3305829804670082187_70246049167300'
+  actionpack (4.0.2) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:383:in `_run__350798157053784545__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__1072886729453187876__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  lograge (0.2.2) lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sdriban/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+method=GET path=/ format=html controller=home action=index status=200 duration=89.78 view=89.44 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=95.05 view=94.87 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=90.17 view=89.98 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=93.16 view=92.89 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=128.60 view=128.43 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=34.29 view=34.07 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=157.94 view=157.71 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=93.93 view=93.77 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=95.11 view=94.92 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=102.09 view=101.82 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=94.44 view=94.20 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=89.82 view=89.66 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=92.44 view=92.21 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=95.65 view=95.42 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=92.29 view=92.08 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=97.21 view=97.05 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=94.56 view=94.35 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=89.30 view=89.14 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=90.79 view=90.43 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=99.03 view=98.75 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=98.95 view=98.78 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=154.14 view=153.94 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=6.32 view=6.10 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=6.05 view=5.88 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=91.71 view=91.50 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=90.04 view=89.88 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=97.11 view=96.95 db=0.00
