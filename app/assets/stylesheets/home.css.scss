@@ -321,7 +321,7 @@ PORTFOLIO GALLERY
 .portfolio {
   width: 100%;
   background-color: $white;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .header-holder {
@@ -377,3 +377,51 @@ PORTFOLIO GALLERY
   }
 }
 
+/*=========================
+ABOUT ME
+==========================*/
+
+.about-me {
+  width: 100%;
+  background-color: $grey;
+  padding-bottom: 40px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.bio p {
+  font-family: $arvo;
+  color: $charcoal;
+  font-size: .95em;
+  line-height: 1.6em;
+}
+
+.resume {
+  background-color: $lime;
+  height: 43px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 7px 0 0 0;
+
+  p {
+    color: #FFF;
+    font-family: $oswald;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .05em;
+    float: left;
+    margin: 0 5% 0 5%;
+  }
+
+  .fa-angle-double-right {
+    float: left;
+    font-size: 2.65em;
+  }
+}
+
+.resume:hover {
+  background-color: $pink;
+}
