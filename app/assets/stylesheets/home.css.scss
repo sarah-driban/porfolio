@@ -186,10 +186,60 @@ STICKY TOP NAVIGATION
   -moz-transform: translateY(-100%);
   @include transition(.5s);
 
-
   //display: none;
   //@include transition(5s);
 
+  .circle {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 0px 12px 0 12px;
+    @include radius(35px);
+    text-align: center;
+
+    i {
+      font-size: 1.2em;
+      margin: 7px 0 0 0;
+      color: $gold;
+    }
+  }
+  .fa-bars {
+    color: $white;
+    margin: 8px 75px 0 0;
+    cursor: pointer;
+    font-size: 2.5em;
+  }
+  .title {
+    font-size: 2em;
+    color: $white;
+    margin: 5px 0;
+    float: left;
+    letter-spacing: .2em;
+  }
+}
+
+.sticky-nav.is-active {
+  transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+}
+
+.sticky-nav-main {
+  background-color: rgba(246,189,24,.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0px 30px 5px 30px;
+  z-index: 80;
+  transition: transform 0.5s;
+  top: 0;
+  transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  @include transition(.5s);
 
   .circle {
     width: 35px;
@@ -220,15 +270,14 @@ STICKY TOP NAVIGATION
     float: left;
     letter-spacing: .2em;
   }
-
-
 }
 
-.sticky-nav.is-active {
+.sticky-nav-main.is-active {
   transform: translateY(0);
   -ms-transform: translateY(0);
   -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);}
+  -moz-transform: translateY(0);
+}
 
 
 /*=========================
@@ -259,7 +308,7 @@ Side Bar NAVIGATION
 }
 
 .nav p, .nav a {
-  font-family: $arvo;
+  @include roboto();
   color: $grey;
   margin: 15px 0;
 }
@@ -437,7 +486,7 @@ ABOUT ME
 }
 
 .bio p {
-  font-family: $arvo;
+  @include roboto();
   color: $charcoal;
   font-size: .95em;
   line-height: 1.6em;
@@ -484,7 +533,7 @@ ABOUT ME
   input {
     width: 90%;
     background-color: $white;
-    font-family: $arvo;
+    @include roboto-thin();
     text-transform: uppercase;
     font-size: .9em;
     color: $grey;
@@ -536,12 +585,14 @@ FOOTER
   height: 65px;
   padding: 10px 0;
   color: $white;
-  font-family: $arvo;
+  @include roboto-light();
   text-align: center;
   font-size: .9em;
   letter-spacing: 1px;
-  font-weight: 400;
-
+  z-index: 55;
+  p {
+    margin: 10px 0 5px 0;
+  }
   a {
     text-decoration: none;
     color: $white;
@@ -559,7 +610,7 @@ FOOTER
   padding-top: 8px;
   text-align:center;
   color: $white;
-  font-family: $arvo;
+  @include roboto();
   text-transform: uppercase;
   font-size: .8em;
   position: fixed;

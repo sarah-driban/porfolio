@@ -3,31 +3,24 @@
 <div class="project">
 
 
-  <div class="topping">
+  <div class="content header">
 
-    <div class="a">
-      <div class="header-holder"></div>
+    <div class="header-holder"></div>
 
-      <h1>PinkHipo</h1>
-      <div class="topic">
-        <ul class="topics">
-          <li>Branding</li>
-          <li>Packaging</li>
-          <li>Illustration</li>
-          <li>Systems Design</li>
-        </ul>
-      </div>
+    <h1>PinkHipo</h1>
+    <div class="topic">
+      <ul class="topics">
+        <li>Branding</li>
+        <li>Packaging</li>
+        <li>Illustration</li>
+        <li>Systems Design</li>
+      </ul>
     </div>
+  </div><!-- end content header -->
 
-    <div class="featured">
+  <div class="featured">
       <%=image_tag ("artwork.jpg") %>
     </div>
-  </div><!-- end topping -->
-
-<div class="vh"></div>
-
-  <div class="topper">
-
 
   <div class="content header">
     <div class="left-content">
@@ -111,40 +104,13 @@
 
   <div class="content header">
 
+    <div class="clear"></div>
+
     <div class="grey-border"></div>
-
-    <h2>Branding Applied</h2>
-
-    <div class="application">
-      <div class="gal col span_6_of_12">
-        <div class="h-300"><%=image_tag ("artwork.jpg") %></div>
-        <div class="h-300"><%=image_tag ("artwork.jpg") %></div>
-
-      </div>
-      <div class="gal col span_3_of_12">
-        <div class="h-175"><%=image_tag("artwork.jpg") %></div>
-        <div class="h-425"><%=image_tag("artwork.jpg") %></div>
-
-      </div>
-      <div class="gal col span_3_of_12">
-        <div class="h-425"><%=image_tag("artwork.jpg") %></div>
-        <div class="h-175"><%=image_tag("artwork.jpg") %></div>
-
-      </div>
-      <div class="clear"></div>
-
-    </div><!-- end application -->
-
 
   </div><!-- end content header -->
 
-    <%= render partial: 'sections/footer' %>
 
 
   </div><!-- end project -->
-
-</div><!-- end topper -->
-
-
-
-
+<%= render partial: 'sections/footer' %>

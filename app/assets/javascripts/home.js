@@ -44,6 +44,11 @@ $(function() {
     });
 })
 
+$(function() {
+        $(".sticky-nav-main").addClass("is-active");
+});
+
+
 //Drop Down Sticky Nav at 700px
 $(window).scroll(function() {
     if ($(window).scrollTop() > $(window).height()) {
@@ -94,3 +99,8 @@ $(function() {
         }
     });
 });
+
+
+
+
+

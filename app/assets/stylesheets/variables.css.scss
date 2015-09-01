@@ -4,13 +4,54 @@ $yellow: #FFDC11;
 $lime: #B8BD35;
 $peach: #F48875;
 $pink: #B1245A;
-$sd-grey: #C1B8AE;
+$grey: #C1B8AE;
 $white: #FFF;
 $charcoal: #545251;
 
+$arvo: 'Arvo', serif;
+$oswald: 'Oswald', sans-serif;
 
-@mixin arvo {font-family: 'Arvo', serif;}
-@mixin oswald {font-family: 'Oswald', sans-serif;}
+@mixin oswald-light {
+  font-family: 'Oswald', serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin oswald {
+  font-family: 'Oswald', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin oswald-bold {
+  font-family: 'Oswald', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin roboto-thin {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@mixin roboto-light {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin roboto {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin roboto-bold {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 @mixin transition($time) {
   -webkit-transition: $time;
@@ -25,3 +66,9 @@ $charcoal: #545251;
   -webkit-border-radius: $size;
   -ms-border-radius: $size;
 }
+
+
+
+
+
+
