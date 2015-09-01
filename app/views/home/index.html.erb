@@ -1,86 +1,17 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--<meta charset="UTF-8">-->
-<!--<title>Portfolio Site Production</title>-->
 
-<!--<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>-->
-<!--<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic,700' rel='stylesheet' type='text/css'>-->
-
-<!--&lt;!&ndash;<link rel="stylesheet" href="css/mixin.css" media="all">&ndash;&gt;-->
-<!--<link rel="stylesheet" href="css/global.css" media="all">-->
-
-<!--<link rel="stylesheet" href="css/html5reset.css" media="all">-->
-<!--<link rel="stylesheet" href="css/col.css.scss" media="all">-->
-
-<!--<link rel="stylesheet" href="css/12cols.css.scss" media="all">-->
-
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
-<!--<script src="index.js"></script>-->
-
-<!--</head>-->
-
-<!--<body style='background-color:#FFDC11;position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>-->
-
-<div class="outer-container" style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
-
-  <div class="sticky-nav">
-    <div class="media col span_3_of_12">
-      <a href="http://www.linkedin.com/in/sarahdriban">
-        <div class="circle"><i class="fa fa-behance"></i></i></div>
-      </a>
-      <a href="http://www.linkedin.com/in/sarahdriban">
-      <div class="circle"><i class="fa fa-linkedin"></i></div>
-      </a>
-      <a href="mailto:sarahdriban@gmail.com">
-        <div class="circle"><i class="fa fa-envelope-o"></i></i></div>
-      </a>
-    </div><!--END media-->
-    <div class="title col span_6_of_12">Sarah Driban</div>
-    <div class="toggle-in">
-      <i class="fa fa-bars opener" id="open-button1"></i>
-    </div><!-- end toggle-in -->
-  </div><!-- end sticky nav-->
-
-  <div class="sticky-bottom">
-    <a href="#top"><div class="col span_1_of_12 bottom-link">
-      <i class="fa fa-angle-double-up fa-2x"></i>
-      <p>back </br> to top</p>
-    </div></a>
-  </div><!-- end sticky-bottom-->
-
-  <div class="black-mask"></div>
 
   <div class="toggle-in">
     <i class="fa fa-bars fa-3x opener" id="open-button"></i>
   </div><!-- end toggle-in -->
 
-  <div class="nav">
-    <div class="toggle-out">
-      <p class="upper">Sarah Driban</p>
-      <i class="fa fa-times fa-3x" id="close-button"></i>
-    </div>
-    <div class="clear"></div>
-    <div class="navigation" id="menu-nav">
-      <ul>
-        <a href="#top"><li>Home</li></a>
-        <a href="#portfolio"><li>Portfolio</li></a>
-        <a href="#about"><li>About Me</li></a>
-        <a href="#about"><li>Contact Me!</li></a>
-      </ul>
-    </div>
-    <a href="tel:+13025479267">302-547-9267</a>
-    <a href="mailto:sarahdriban@gmail.com">sarahdriban@gmail.com</a>
-    <a>linkedin.com/sarahdriban</a>
-    <a>behance.com/sarahdriban</a>
-  </div><!-- end nav -->
+
 
   <a name="top"></a>
   <div class="first-container">
     <div class="content header">
       <div class="home">
         <div class="media col span_3_of_12">
-          <a href="http://www.linkedin.com/in/sarahdriban">
+          <a href="https://www.behance.net/sarahdriban">
             <div class="circle"><i class="fa fa-behance"></i></i></div>
           </a>
           <a href="http://www.linkedin.com/in/sarahdriban">
@@ -112,114 +43,9 @@
     </div><!-- end content -->
   </div> <!-- end first-container-->
 
-  <a name="portfolio"></a>
-  <div class="portfolio">
-    <div class="content header">
+  <%= render partial: 'sections/gallery' %>
 
-      <div class="header-holder"></div>
+  <%= render partial: 'sections/about' %>
 
-      <div class="gallery section group">
-      <div class="artwork col span_6_of_12">
-        <a href="#">
-          <div class="image-link">
-            <p>Title 1</p>
-          </div>
-        </a>
-        <%=image_tag ("artwork.jpg") %>
-      </div>
-      <div class="artwork col span_6_of_12">
-        <a href="#">
-          <div class="image-link">
-            <p>Another Title !</p>
-          </div>
-        </a>
-        <%=image_tag ("artwork.jpg") %>
-      </div>
-    </div><!-- end gallery -->
-      <div class="gallery2 section group">
-        <div class="artwork col span_6_of_12">
-          <a href="#">
-            <div class="image-link">
-              <p>Title # 3</p>
-            </div>
-          </a>
-          <%=image_tag ("artwork.jpg") %>
-        </div>
-        <div class="artwork col span_6_of_12">
-          <a href="#">
-            <div class="image-link">
-              <p>More Words</p>
-            </div>
-          </a>
-          <%=image_tag ("artwork.jpg") %>
-        </div>
-      </div><!-- end gallery2 -->
-      <div class="gallery3 section group">
-        <div class="artwork col span_6_of_12">
-          <a href="#">
-            <div class="image-link">
-              <p>Even more titles</p>
-            </div>
-          </a>
-          <%=image_tag ("artwork.jpg") %>
-        </div>
-        <div class="artwork col span_6_of_12">
-          <a href="#">
-            <div class="image-link">
-              <p>Title 6.</p>
-            </div>
-          </a>
-          <%=image_tag ("artwork.jpg") %>
-        </div>
-      </div><!-- end gallery3 -->
-    </div><!-- end content header -->
+  <%= render partial: 'sections/footer' %>
 
-  </div><!-- end portfolio -->
-
-  <a name="about"></a>
-  <div class="about-me">
-    <div class="contact-form">
-      <form>
-        <input type="text" name="name" value="Name*">
-        <input type="text" name="email" value="Email Address*">
-        <input type="text" name="message" value="Message">
-        <input type="submit" name="submit" value="Submit">
-
-      </form>
-    </div><!-- end contact-form -->
-
-    <div class="content header">
-
-      <div class="header-holder"></div>
-
-      <div class="bio section group">
-        <div class="col span_3_of_12"></div>
-        <div class="col span_4_of_12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at nibh vel nisi dapibus gravida sit amet non lorem. Maecenas libero neque, tempus ut elit posuere, euismod pulvinar ipsum. Morbi vel mi consectetur, maximus ligula vitae, blandit neque. Etiam sollicitudin dignissim quam iaculis consequat. Sed non vehicula justo. Aenean quis justo massa. Ut arcu turpis, interdum nec fermentum sit amet, molestie at erat.</p>
-        </div>
-        <div class="col span_4_of_12">
-          <p>Cras ac ornare nibh, ut feugiat purus. Nam malesuada facilisis enim, in congue metus sollicitudin eget. Phasellus fringilla ante massa, ac finibus turpis luctus id. Curabitur dolor erat, feugiat sed arcu eu, rhoncus volutpat magna. Class aptent taciti sociosqu ad litora conubia nostra, per himenaeos.</p>
-          <a href="#"><div class="resume">
-            <p>Check out my resume</p>
-            <i class="fa fa-angle-double-right"></i>
-          </div></a>
-        </div>
-      </div><!-- end bio -->
-    </div><!-- end content header -->
-
-  </div><!-- end about-me -->
-
-  <a name="footer"></a>
-  <div class="footer">
-    <p>Sarah Driban &#169; <%= Time.now.year %></p>
-    <div class="contact-info">
-      <a href="tel:+13025479267">302-547-9267</a>
-      <a href="mailto:sarahdriban@gmail.com">sarahdriban@gmail.com</a>
-    </div>
-
-  </div><!-- end footer -->
-
-</div><!-- end outer-container -->
-
-</body>
-</html>

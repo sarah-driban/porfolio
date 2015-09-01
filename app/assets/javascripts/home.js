@@ -71,7 +71,7 @@ $(window).scroll(function() {
 
 //Drop Down Sticky Bottom at 700px
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
+    if ($(window).scrollTop() > 100) {
         $(".bottom-link").addClass("is-active");
     }
     else {

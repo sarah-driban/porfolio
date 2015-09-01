@@ -117,27 +117,28 @@ body {
   padding: 17px 5px;
 }
 
-.button1 p {
-  font-family: $oswald;
-  font-size: 1.1em;
-  letter-spacing: .07em;
-  color: $white;
-  width: 196px;
-  text-align: center;
-  float: left;
-  text-transform: uppercase;
-  margin: 0;
-}
-
 .button1 {
+  p {
+    font-family: $oswald;
+    font-size: 1.1em;
+    letter-spacing: .07em;
+    color: $white;
+    width: 196px;
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+    margin: 0;
+  }
   img{
     width: 22px;
-    float: right;  }
-}
-
-.button1:hover {
-  background-color: $pink;
-
+    float: right;
+  }
+  &:hover {
+    background-color: $lime;
+    p {
+      text-decoration: underline;
+    }
+  }
 }
 
 .fa-angle-double-right {
@@ -154,16 +155,14 @@ body {
   background-color: #FFF;
   @include radius(50px);
   text-align: center;
-
   i {
     font-size: 1.8em;
     margin: 10px 0 0 0;
     color: $gold;
   }
-}
-
-.circle:hover {
-  background-color: $pink;
+  &:hover {
+    background-color: $pink;
+  }
 }
 
 /*========================
@@ -239,7 +238,7 @@ Side Bar NAVIGATION
 .nav {
   background-color: rgb(177, 36, 90);
   width: 240px;
-  height: 640px;
+  height: 100vh;
   padding: 30px;
   position: fixed;
   z-index: 100;
@@ -396,7 +395,7 @@ PORTFOLIO GALLERY
     z-index: 20;
   }
   .image-link:hover {
-    background-color: $pink;
+    text-decoration: underline;
   }
 
 }
@@ -452,8 +451,8 @@ ABOUT ME
   margin: 10px 0 0 0;
   padding: 7px 0 0 0;
 
-  &:hover {
-    background-color: $pink;
+  &:hover p {
+    text-decoration: underline;
   }
 
   p {
@@ -518,7 +517,8 @@ ABOUT ME
     font-size: 1.3em;
     letter-spacing: 2px;
     &:hover {
-      background-color: $pink;
+      text-decoration: underline;
+      background-color: $lime;
     }
   }
 }
@@ -564,7 +564,7 @@ FOOTER
   font-size: .8em;
   position: fixed;
   bottom: 0;
-  right: 30px;
+  right: 15px;
   z-index: 95;
   p {
     margin: 0;

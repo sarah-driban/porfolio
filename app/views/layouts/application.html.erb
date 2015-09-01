@@ -22,13 +22,68 @@
 </head>
 <body>
 <!-- Add your site or application content here -->
-<%= yield %>
-<script>
-    console.warn('REMINDER: SET GOOGLE ANALYTICS ID')
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+
+
+
+
+<div class="outer-container" style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
+
+  <div class="sticky-nav">
+    <div class="media col span_3_of_12">
+      <a href="https://www.behance.net/sarahdriban">
+        <div class="circle"><i class="fa fa-behance"></i></i></div>
+      </a>
+      <a href="http://www.linkedin.com/in/sarahdriban">
+        <div class="circle"><i class="fa fa-linkedin"></i></div>
+      </a>
+      <a href="mailto:sarahdriban@gmail.com">
+        <div class="circle"><i class="fa fa-envelope-o"></i></i></div>
+      </a>
+    </div><!--END media-->
+    <div class="title col span_6_of_12">Sarah Driban</div>
+    <div class="toggle-in">
+      <i class="fa fa-bars opener" id="open-button1"></i>
+    </div><!-- end toggle-in -->
+  </div><!-- end sticky nav-->
+
+  <div class="sticky-bottom">
+    <a href="#top"><div class="col span_1_of_12 bottom-link">
+      <i class="fa fa-angle-double-up fa-2x"></i>
+      <p>back </br> to top</p>
+    </div></a>
+  </div><!-- end sticky-bottom-->
+
+  <div class="black-mask"></div>
+
+  <div class="nav">
+    <div class="toggle-out">
+      <p class="upper">Sarah Driban</p>
+      <i class="fa fa-times fa-3x" id="close-button"></i>
+    </div>
+    <div class="clear"></div>
+    <div class="navigation" id="menu-nav">
+      <ul>
+        <a href="#top"><li>Home</li></a>
+        <a href="#portfolio"><li>Portfolio</li></a>
+        <a href="#about"><li>About Me</li></a>
+        <a href="#about"><li>Contact Me!</li></a>
+      </ul>
+    </div>
+    <a href="tel:+13025479267">302-547-9267</a>
+    <a href="mailto:sarahdriban@gmail.com">sarahdriban@gmail.com</a>
+    <a>linkedin.com/sarahdriban</a>
+    <a>behance.com/sarahdriban</a>
+  </div><!-- end nav -->
+
+
+
+  <%= yield %>
+  <script>
+      console.warn('REMINDER: SET GOOGLE ANALYTICS ID')
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+          g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+          s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
 </body>
 </html>
