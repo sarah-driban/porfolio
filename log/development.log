@@ -17651,3 +17651,5 @@ method=GET path=/ format=html controller=home action=index status=200 duration=7
 method=GET path=/pinkhipo format=html controller=home action=project_pinkhipo status=200 duration=10.66 view=10.46 db=0.00
 method=GET path=/pinkhipo format=html controller=home action=project_pinkhipo status=200 duration=10.91 view=10.75 db=0.00
 method=GET path=/pinkhipo format=html controller=home action=project_pinkhipo status=200 duration=166.59 view=166.42 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=10.42 view=10.24 db=0.00
+method=GET path=/ format=html controller=home action=index status=200 duration=177.52 view=177.34 db=0.00

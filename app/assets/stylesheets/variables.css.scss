@@ -67,8 +67,107 @@ $oswald: 'Oswald', sans-serif;
   -ms-border-radius: $size;
 }
 
+//BREAK POINTS (STOLEN FROM REYKA)
 
+$break-very-small: 320px;
+$break-6: 375px;
+$break-6plus: 414px;
+$break-small: 500px;
+$break-medium: 768px;
+$break-medium-2: 800px;
+$break-medium-3: 925px;
+$break-large: 1024px;
+$break-large-2: 1200px;
+$break-large-3: 1300px;
+$break-large-4: 1600px;
+$break-xlarge: 2000px;
 
+@mixin respond-to($media) {
 
+  @if $media == mobile {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == small-mobile {
+    @media only screen and (max-width: $break-very-small) { @content; }
+  }
+  @else if $media == medium-mobile {
+    @media only screen and (max-width: $break-6) { @content; }
+  }
+  @else if $media == large-mobile {
+    @media only screen and (max-width: $break-6plus) { @content; }
+  }
+  @else if $media == mobile-and-tablet {
+    @media only screen and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == tablet-only {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == tablet-min {
+    @media only screen and (min-width: $break-small + 1){ @content; }
+  }
+  @else if $media == desktop {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+  @else if $media == desktop-small {
+    @media only screen and (min-width: $break-large) and (max-width: $break-large + 300) { @content; }
+  }
+  @else if $media == desktop-medium {
+    @media only screen and (min-width: $break-large + 300) and (max-width: $break-large + 500) { @content; }
+  }
+  @else if $media == wider-than-medium {
+    @media only screen and (min-width: $break-large + 300) { @content; }
+  }
+  @else if $media == small-aspect-ratio {
+    @media only screen and (min-aspect-ratio: 2/1) { @content; }
+  }
+  @else if $media == small-width-or-aspect-ratio {
+    @media only screen and (min-aspect-ratio: 2/1), (min-width: $break-large) and (max-width: $break-large + 300) { @content; }
+  }
+  @else if $media == desktop-large {
+    @media only screen and (min-width: $break-large + 500) { @content; }
+  }
+  @else if $media == super-small-aspect-ratio{
+    @media only screen and (min-aspect-ratio: 3/1) { @content; }
+  }
+  @else if $media == small-height {
+    @media only screen and (max-height: 650px) { @content; }
+  }
+  @else if $media == small-height-desktop {
+    @media only screen and (max-height: 650px) and (min-width: $break-large) { @content; }
+  }
+  @else if $media == medium-height {
+    @media only screen and (min-height: 750px) { @content; }
+  }
+  @else if $media == large-height {
+    @media only screen and (min-height: 850px) { @content; }
+  }
+  @else if $media == smaller-than-large-height {
+    @media only screen and (max-height: 850px) { @content; }
+  }
+  @else if $media == large-height-and-width {
+    @media only screen and (min-height: 850px) and (min-width: 1750px) { @content; }
+  }
+  @else if $media == landscape {
+    @media only screen and (orientation: landscape) and (max-width: $break-small) { @content; }
+  }
+}
+
+@mixin respond-min($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin respond-max($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin respond-retina {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @content;
+  }
+}
 
 
