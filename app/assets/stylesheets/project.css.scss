@@ -268,8 +268,8 @@
       margin-bottom: 10px;
       overflow: hidden;
       img {
-        width: 100%;
-      }
+        min-height: 100%;
+        min-width: 100%;      }
     }
      .h-175 {
        width: 100%;
@@ -277,7 +277,8 @@
        margin-bottom: 10px;
        overflow: hidden;
        img {
-         height: 100%;
+         min-height: 100%;
+         min-width: 100%;
        }
      }
      .h-425 {
@@ -286,8 +287,8 @@
        margin-bottom: 10px;
        overflow: hidden;
        img {
-         height: 100%;
-       }
+         min-height: 100%;
+         min-width: 100%;       }
      }
      .h-600 {
        width: 100%;
@@ -295,8 +296,8 @@
        margin-bottom: 10px;
        overflow: hidden;
        img {
-         height: 100%;
-       }
+         min-height: 100%;
+         min-width: 100%;       }
      }
 
    }
