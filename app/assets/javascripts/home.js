@@ -31,17 +31,23 @@ $(function() {
 
     });
 
-    $('#open-button1').on('click', function() {
-        $(".nav").addClass("is-active");
-        $(".black-mask").addClass("is-active");
+    $('#open-button1').click(function() {
+        $(".nav").toggleClass("is-active");
+        $(".black-mask").toggleClass("is-active");
+        $("#open-button1").toggleClass("rotate");
 
     });
 
-    $('#close-button').on('click', function() {
-        $(".nav").removeClass("is-active");
-        $(".black-mask").removeClass("is-active");
-
-    });
+    //$('#open-button1').on('click', function() {
+    //    $(".nav").addClass("is-active");
+    //    $(".black-mask").addClass("is-active");
+    //    $("#open-button1").addClass("rotate");
+    //});
+    //$('#close-button').on('click', function() {
+    //    $(".nav").removeClass("is-active");
+    //    $(".black-mask").removeClass("is-active");
+    //
+    //});
 })
 
 $(function() {
@@ -53,10 +59,14 @@ $(function() {
 $(window).scroll(function() {
     if ($(window).scrollTop() > $(window).height()) {
         $(".sticky-nav").addClass("is-active");
+        $(".toggle-in2").addClass("top-placement");
+        $(".media").addClass("top-placement");
     }
 
     else {
         $(".sticky-nav").removeClass("is-active");
+        $(".toggle-in2").removeClass("top-placement");
+        $(".media").removeClass("top-placement");
     }
 });
 
@@ -76,7 +86,7 @@ $(window).scroll(function() {
 
 //Drop Down Sticky Bottom at 700px
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 50) {
+    if ($(window).scrollTop() > 60) {
         $(".bottom-link").addClass("is-active");
     }
     else {

@@ -74,7 +74,7 @@ body {
   color: $white;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 150px 0 100px 0;
+  margin: 175px 0 100px 0;
 }
 
 .home {
@@ -146,18 +146,31 @@ body {
   margin: -4px 0 0 5px;
 
 }
+.media {
+  position: fixed;
+  z-index:82;
+  left: 30px;
+  top: 15px;
+}
+
+.media1 {
+  position: fixed;
+  z-index:82;
+  left: 30px;
+  top: 0px;
+}
 
 .circle {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   float: left;
-  margin: 25px 12px 0 12px;
+  margin: 0px 12px 0 12px;
   background-color: #FFF;
-  @include radius(50px);
+  @include radius(35px);
   text-align: center;
   i {
-    font-size: 1.8em;
-    margin: 10px 0 0 0;
+    font-size: 1.2em;
+    margin: 7px 0 0 0;
     color: $gold;
   }
   &:hover {
@@ -213,8 +226,9 @@ STICKY TOP NAVIGATION
     font-size: 2em;
     color: $white;
     margin: 5px 0;
-    float: left;
+    width: 100%;
     letter-spacing: .2em;
+    text-align: center;
   }
 }
 
@@ -267,8 +281,9 @@ STICKY TOP NAVIGATION
     font-size: 2em;
     color: $white;
     margin: 5px 0;
-    float: left;
+    width: 100%;
     letter-spacing: .2em;
+    text-align: center;
   }
 }
 
@@ -279,6 +294,81 @@ STICKY TOP NAVIGATION
   -moz-transform: translateY(0);
 }
 
+.toggle-in {
+  margin: 0 0px 0 -30px;
+  .fa-angle-double-right {
+    color: #FFF;
+    margin: 25px 42px 0 12px;
+    font-size: 4em;
+    text-align: center;
+    float: right;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.toggle-in1 {
+  margin: 0 0px 0 -30px;
+  position: fixed;
+  top:0px;
+  right: 30px;
+  z-index: 200;
+
+
+  .fa-angle-double-right {
+    color: #FFF;
+    margin: 3px 12px 0 12px;
+    font-size: 3em;
+    text-align: center;
+    float: right;
+    @include transition(.5s);
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .fa-angle-double-right.rotate {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+  }
+}
+
+.toggle-in2 {
+  margin: 0 0px 0 -30px;
+  position: fixed;
+  top:15px;
+  right: 30px;
+  z-index: 200;
+
+
+  .fa-angle-double-right {
+    color: #FFF;
+    margin: 3px 12px 0 12px;
+    font-size: 3em;
+    text-align: center;
+    float: right;
+    @include transition(.5s);
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    &:hover {
+    cursor: pointer;
+  }
+  }
+  .fa-angle-double-right.rotate {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+  }
+}
+
+.top-placement {
+  top: 0 !important;
+}
 
 /*=========================
 Side Bar NAVIGATION
@@ -387,7 +477,7 @@ body.has-active-menu {
   width:100%;
   height:100%;
   background-color: #000;
-  z-index: 80;
+  z-index: 87;
   display: none;
   position: fixed;
   transition: transform 0.2s;
