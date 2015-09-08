@@ -76,13 +76,29 @@ $(window).scroll(function() {
 
 //Drop Down Sticky Bottom at 700px
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 50) {
         $(".bottom-link").addClass("is-active");
     }
     else {
         $(".bottom-link").removeClass("is-active");
     }
 });
+
+//Stopping Sticky Bottom at Footer
+$(document).scroll(function() {
+    checkOffset();
+});
+function checkOffset() {
+    if($('#bottom').offset().top + $('#bottom').height()
+        >= $('#footer').offset().top - 10)
+        $('#bottom').css('position', 'absolute');
+    if($(document).scrollTop() + window.innerHeight < $('#footer').offset().top)
+        $('#bottom').css('position', 'fixed'); // restore when you scroll up
+    //$('#bottom').text($(document).scrollTop() + window.innerHeight);
+}
+
+
+
 
 //Smooth Scrolling
 $(function() {
