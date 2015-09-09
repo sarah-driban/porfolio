@@ -315,7 +315,6 @@ STICKY TOP NAVIGATION
   right: 30px;
   z-index: 200;
 
-
   .fa-angle-double-right {
     color: #FFF;
     margin: 3px 12px 0 12px;
@@ -343,8 +342,6 @@ STICKY TOP NAVIGATION
   top:15px;
   right: 30px;
   z-index: 200;
-
-
   .fa-angle-double-right {
     color: #FFF;
     margin: 3px 12px 0 12px;
@@ -356,13 +353,16 @@ STICKY TOP NAVIGATION
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     &:hover {
-    cursor: pointer;
+      cursor: pointer;
   }
   }
   .fa-angle-double-right.rotate {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    &:hover {
+    color: #FFF;
+  }
   }
 }
 
@@ -696,17 +696,18 @@ FOOTER
 
 .bottom-link {
   background-color: rgba(177,36,90, .85);
-  height: 67px;
-  padding-top: 8px;
+  height: 54px;
+  padding: 4px 0;
   text-align:center;
   color: $white;
-  @include roboto();
+  @include oswald-light();
   text-transform: uppercase;
-  font-size: .8em;
+  font-size: .7em;
   position: fixed;
   bottom: 0;
   right: 30px;
   z-index: 95;
+  letter-spacing: 2px;
   p {
     margin: 0;
   }

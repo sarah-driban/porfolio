@@ -6,6 +6,8 @@ Portfolio::Application.routes.draw do
   root to: 'home#index', as: :home
 
   get '/pinkhipo' => 'home#project_pinkhipo'
+  get '/pinkhipo2' => 'home#project_pinkhipo2'
+
 
 
 end

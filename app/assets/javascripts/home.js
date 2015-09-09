@@ -94,6 +94,16 @@ $(window).scroll(function() {
     }
 });
 
+//Scrolled Charcoal Project fill
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 10) {
+        $(".topping3").addClass("active");
+    }
+    else {
+        $(".topping3").removeClass("active");
+    }
+});
+
 //Stopping Sticky Bottom at Footer
 $(document).scroll(function() {
     checkOffset();
