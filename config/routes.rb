@@ -7,6 +7,7 @@ Portfolio::Application.routes.draw do
 
   get '/pinkhipo' => 'home#project_pinkhipo'
   get '/pinkhipo2' => 'home#project_pinkhipo2'
+  get '/pinkhipo3' => 'home#project_pinkhipo3'
 
 
 
