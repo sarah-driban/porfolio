@@ -75,6 +75,9 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   margin: 175px 0 100px 0;
+  @include respond-max($break-medium-3){
+    font-size: 7.5em;
+  }
 }
 
 .home {
@@ -111,19 +114,33 @@ body {
   margin: 0px 30px 0 30px;
 }
 
+.home-links {
+  margin: 0 0 0 20%;
+  width: 60%;
+  @include respond-max($break-medium-3){
+    margin: 0 0 0 15%;
+    width: 70%;  }
+  @include respond-max($break-medium){
+    margin: 0 0 0 7.5%;
+    width: 85%;  }
+  @include respond-max(600px){
+    margin: 0 0 0 2.5%;
+    width: 95%;  }
+}
 .button1 {
   height: 21px;
   background-color: $grey;
-  padding: 17px 5px;
-}
-
-.button1 {
+  padding: 17px 0 17px 2%;
+  width: 45%;
+  @include respond-max(600px){
+    padding: 17px 0 17px 1%;
+    width: 47%;  }
   p {
     font-family: $oswald;
     font-size: 1.1em;
     letter-spacing: .07em;
     color: $white;
-    width: 196px;
+    //width: 196px;
     text-align: center;
     float: left;
     text-transform: uppercase;
@@ -151,6 +168,10 @@ body {
   z-index:82;
   left: 30px;
   top: 15px;
+  @include respond-max($break-medium){
+    left: 10px;
+    width: 25%;
+      }
 }
 
 .media1 {
@@ -158,6 +179,10 @@ body {
   z-index:82;
   left: 30px;
   top: 0px;
+  @include respond-max($break-medium){
+    left: 10px;
+    width: 25%;
+  }
 }
 
 .circle {
@@ -168,6 +193,12 @@ body {
   background-color: #FFF;
   @include radius(35px);
   text-align: center;
+  @include respond-max($break-medium){
+    margin: 0px 5px ;
+  }
+  @include respond-max(550px){
+    margin: 0px 3px ;
+  }
   i {
     font-size: 1.2em;
     margin: 7px 0 0 0;
@@ -192,15 +223,11 @@ STICKY TOP NAVIGATION
   padding: 0px 30px 5px 30px;
   z-index: 80;
   transition: transform 0.5s;
-  top: 0;
   transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
   @include transition(.5s);
-
-  //display: none;
-  //@include transition(5s);
 
   .circle {
     width: 35px;
@@ -229,6 +256,17 @@ STICKY TOP NAVIGATION
     width: 100%;
     letter-spacing: .2em;
     text-align: center;
+    @include respond-max($break-medium-2){
+      font-size: 1.8em;
+      margin: 8px 0 0 0;
+    }@include respond-max($break-medium){
+      font-size: 1.5em;
+      margin: 10px 0 0 0;
+    }
+  }
+  a {
+    color: #FFF;
+    text-decoration: none;
   }
 }
 
@@ -285,6 +323,10 @@ STICKY TOP NAVIGATION
     letter-spacing: .2em;
     text-align: center;
   }
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
 }
 
 .sticky-nav-main.is-active {
@@ -314,7 +356,9 @@ STICKY TOP NAVIGATION
   top:0px;
   right: 30px;
   z-index: 200;
-
+  @include respond-max($break-medium){
+    right: 10px;
+  }
   .fa-angle-double-right {
     color: #FFF;
     margin: 3px 12px 0 12px;
@@ -325,6 +369,9 @@ STICKY TOP NAVIGATION
     transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
+    @include respond-max($break-medium){
+      font-size: 2.8em;
+    }
     &:hover {
       cursor: pointer;
     }
@@ -342,6 +389,9 @@ STICKY TOP NAVIGATION
   top:15px;
   right: 30px;
   z-index: 200;
+  @include respond-max($break-medium){
+    right: 10px;
+  }
   .fa-angle-double-right {
     color: #FFF;
     margin: 3px 12px 0 12px;
@@ -352,6 +402,9 @@ STICKY TOP NAVIGATION
     transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
+    @include respond-max($break-medium){
+      font-size: 2.8em;
+    }
     &:hover {
       cursor: pointer;
   }
@@ -368,6 +421,9 @@ STICKY TOP NAVIGATION
 
 .top-placement {
   top: 0 !important;
+  @include respond-max($break-medium){
+    top: 5px !important;
+  }
 }
 
 /*=========================
@@ -511,11 +567,23 @@ PORTFOLIO GALLERY
   height: 300px;
   position: relative;
   overflow: hidden;
-
+  @include respond-max($break-medium-3){
+    height: 275px;
+  }
+  @include respond-max($break-medium-2){
+    height: 250px;
+  }
   img {
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
     position: absolute;
     z-index: 5;
+    @include respond-max($break-medium-3){
+      height: 275px;
+    }
+    @include respond-max($break-medium-2){
+      height: 250px;
+    }
   }
   .image-link {
     background-color: $lime;
@@ -532,6 +600,21 @@ PORTFOLIO GALLERY
     position: absolute;
     display: none;
     z-index: 20;
+    @include respond-max($break-medium-3){
+      height: 85px;
+      margin-top: 100px;
+      font-size: 1.7em;
+    }
+    @include respond-max($break-medium-2){
+      height: 75px;
+      margin-top: 100px;
+      font-size: 1.5em;
+    }
+    @include respond-max($break-medium){
+      height: 65px;
+      margin-top: 100px;
+      font-size: 1.25em;
+    }
   }
   .image-link:hover {
     text-decoration: underline;
