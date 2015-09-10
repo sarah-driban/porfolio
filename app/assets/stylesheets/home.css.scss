@@ -74,35 +74,40 @@ body {
   color: $white;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 175px 0 100px 0;
+  margin: 175px 0 90px 0;
+  line-height: 1.4em;
   @include respond-max($break-medium-3){
-    font-size: 7.5em;
+    font-size: 7em;
+    line-height: 1.2em;
   }
 }
 
 .home {
   height: 800px;
   width: 100%;
-  @media screen and ( max-height: 800px ){
-    height: 100vh;
-  }
-  @media screen and ( max-height: 600px ){
-    .title {
-      margin: 150px 0 50px 0;
+  @include respond-max($break-large) {
+
+    @media screen and (max-height: 800px) {
+      height: 100vh;
     }
-  }
-  @media screen and ( max-height: 550px ){
-    .title {
-      margin: 100px 0 50px 0;
+    @media screen and (max-height: 600px) {
+      .title {
+        margin: 150px 0 50px 0;
+      }
     }
-  }
-  @media screen and ( max-height: 500px ){
-    .title {
-      margin: 50px 0 50px 0;
+    @media screen and (max-height: 550px) {
+      .title {
+        margin: 100px 0 50px 0;
+      }
     }
-  }
-  @media screen and ( max-height: 450px ){
-    height: 450px;
+    @media screen and (max-height: 500px) {
+      .title {
+        margin: 50px 0 50px 0;
+      }
+    }
+    @media screen and (max-height: 450px) {
+      height: 450px;
+    }
   }
 }
 
@@ -657,6 +662,36 @@ ABOUT ME
   .span_4_of_12 {
     margin-top: 0;
   }
+  @include respond-max($break-large){
+
+    div.span_3_of_12 {
+      width: 25.8%;
+    }
+  }
+  @include respond-max($break-medium-3){
+    div.span_4_of_12 {
+      width: 32.26%;
+    }
+    div.span_3_of_12 {
+      width: 28.8%;
+    }
+  }
+  @include respond-max($break-medium-2){
+    div.span_4_of_12 {
+      width: 28.8%;
+    }
+    div.span_3_of_12 {
+      width: 28.8%;
+    }
+  }
+  @include respond-max($break-medium){
+    div.span_4_of_12 {
+      width: 28.8%;
+    }
+    div.span_3_of_12 {
+      width: 35%;
+    }
+  }
 }
 
 .bio p {
@@ -665,6 +700,15 @@ ABOUT ME
   font-size: .95em;
   line-height: 1.6em;
   margin-top: 0;
+  @include respond-max($break-medium-3){
+    font-size: .9em;
+  }
+  @include respond-max($break-medium-2){
+    font-size: .8em;
+  }
+  @include respond-max($break-medium){
+    font-size: .7em;
+  }
 }
 
 .resume {
@@ -673,7 +717,18 @@ ABOUT ME
   width: 100%;
   margin: 10px 0 0 0;
   padding: 7px 0 0 0;
+  @include respond-max($break-medium-3){
+    height: 35px;
+    width: 225px;
+  }
+  @include respond-max($break-medium-2){
+    height: 32px;
 
+  }
+  @include respond-max($break-medium){
+    height: 25px;
+    width: 190px;
+  }
   &:hover p {
     text-decoration: underline;
   }
@@ -681,17 +736,39 @@ ABOUT ME
   p {
     color: #FFF;
     font-family: $oswald;
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: .05em;
     float: left;
     margin: 0 5% 0 5%;
+    @include respond-max($break-medium-3){
+     font-size: 1.1em;
+      margin: 0 2.5% 0 5%;
+    }
+    @include respond-max($break-medium-2){
+      font-size: 1em;
+      letter-spacing: 1px;
+    }
+    @include respond-max($break-medium){
+      font-size: .8em;
+      letter-spacing: 1.5px;
+      margin: 0 2.5% 0 5%;
+    }
   }
 
   .fa-angle-double-right {
     float: left;
-    font-size: 2.65em;
+    font-size: 2.6em;
+    @include respond-max($break-medium-3){
+      font-size: 2.2em;
+    }
+    @include respond-max($break-medium-2){
+      font-size: 1.9em;
+    }
+    @include respond-max($break-medium){
+      font-size: 1.5em;
+    }
   }
 }
 
@@ -703,6 +780,18 @@ ABOUT ME
   left: 0;
   width:23.8%;
   height: 100%;
+  @include respond-max($break-large){
+    width: 25.8%;
+  }
+  @include respond-max($break-medium-3){
+    width:28.8%;
+  }
+  @include respond-max($break-medium-2){
+    width:28.8%;
+  }
+  @include respond-max($break-medium){
+    width:35%;
+  }
 
   input {
     width: 90%;
