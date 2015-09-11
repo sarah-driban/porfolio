@@ -80,6 +80,10 @@ body {
     font-size: 7em;
     line-height: 1.2em;
   }
+  @include respond-max($break-small){
+    font-size: 6em;
+    line-height: 1em;
+  }
 }
 
 .home {
@@ -131,7 +135,21 @@ body {
   @include respond-max(600px){
     margin: 0 0 0 2.5%;
     width: 95%;  }
+  @include respond-max($break-small){
+    margin: 0 0 0 5%;
+    width: 97%;
+    .fa-angle-double-right {
+      font-size: 2em;
+    }
+  }
+  @include respond-max($break-6plus){
+    margin: 0 0 0 1.5%;
+    .fa-angle-double-right {
+      font-size: 2em;
+    }
+  }
 }
+
 .button1 {
   height: 21px;
   background-color: $grey;
@@ -140,6 +158,18 @@ body {
   @include respond-max(600px){
     padding: 17px 0 17px 1%;
     width: 47%;  }
+  @include respond-max($break-small){
+    padding: 10px 0 12px 5%;
+    width: 85%;
+    margin: 0 0 20px 0;
+    height: 25px;
+  }
+  @include respond-max($break-6plus){
+    padding: 10px 0 12px 5%;
+    width: 95%;
+    margin: 0 0 20px 0;
+    height: 25px;
+  }
   p {
     font-family: $oswald;
     font-size: 1.1em;
@@ -150,6 +180,16 @@ body {
     float: left;
     text-transform: uppercase;
     margin: 0;
+    @include respond-max($break-small){
+      font-size: 16pt;
+      letter-spacing: 1pt;
+      margin-right: 2px;
+    }
+    @include respond-max($break-6plus){
+      font-size: 16pt;
+      letter-spacing: 1pt;
+      margin-right: 2px;
+    }
   }
   img{
     width: 22px;
