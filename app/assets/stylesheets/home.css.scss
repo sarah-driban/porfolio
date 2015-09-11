@@ -487,6 +487,14 @@ Side Bar NAVIGATION
   margin: 40px 0 40px -8px;
   padding: 6px 0 6px 8px;
   text-decoration: none;
+
+  @media screen and (max-height: 600px) {
+    margin: 20px 0 20px -8px;
+  }
+  @media screen and (max-height: 485px) {
+    margin: 10px 0 10px -8px;
+  }
+
 }
 
 .nav a:hover{
