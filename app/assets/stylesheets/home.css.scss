@@ -261,20 +261,23 @@ body {
 }
 
 .hidden-nav {
-  display: none;
-  @include respond-max($break-6plus){
-    display: block;
-  }
+
+
 
   .media {
     position: fixed;
     z-index:82;
     left: 15px;
     top: 610px;
+    width: 180px;
     //@include respond-max($break-medium){
     //  left: 10px;
     //  width: 25%;
     //}
+    display: none;
+    @include respond-max($break-6plus){
+      display: block;
+    }
   }
   .circle {
     width: 35px;
