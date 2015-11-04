@@ -277,6 +277,7 @@ body {
     display: none;
     @include respond-max($break-6plus){
       display: block;
+      top: 510px;
     }
   }
   .circle {
