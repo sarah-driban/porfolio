@@ -175,7 +175,7 @@
 
   .grey-border {
     background-color: $grey;
-    height: 5px;
+    height: 3px;
     width: 100%;
     margin-top: 25px;
     margin-bottom: 50px;
@@ -245,6 +245,8 @@
   img {
     width: 100%;
     z-index: 5;
+    min-height: 100%;
+    min-width: 100%;
   }
 }
 

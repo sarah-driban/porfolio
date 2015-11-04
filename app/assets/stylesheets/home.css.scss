@@ -217,6 +217,9 @@ body {
     left: 10px;
     width: 25%;
       }
+  @include respond-max($break-6plus){
+    display: none;
+  }
 }
 
 .media1 {
@@ -227,6 +230,9 @@ body {
   @include respond-max($break-medium){
     left: 10px;
     width: 25%;
+  }
+  @include respond-max($break-6plus){
+    display: none;
   }
 }
 
@@ -251,6 +257,37 @@ body {
   }
   &:hover {
     background-color: $pink;
+  }
+}
+
+.hidden-nav {
+  display: none;
+  @include respond-max($break-6plus){
+    display: block;
+  }
+
+  .media {
+    position: fixed;
+    z-index:82;
+    left: 15px;
+    top: 610px;
+    //@include respond-max($break-medium){
+    //  left: 10px;
+    //  width: 25%;
+    //}
+  }
+  .circle {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 0px 12px 0 12px;
+    background-color: #FFF;
+    i {
+      color: $pink;
+    }
+    &:hover {
+      background-color: $lime;
+    }
   }
 }
 
