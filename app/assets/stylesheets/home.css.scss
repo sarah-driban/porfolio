@@ -180,6 +180,9 @@ body {
     float: left;
     text-transform: uppercase;
     margin: 0;
+    @include respond-max($break-medium){
+      font-size: 1em;
+    }
     @include respond-max($break-small){
       font-size: 16pt;
       letter-spacing: 1pt;
@@ -215,7 +218,7 @@ body {
   top: 15px;
   @include respond-max($break-medium){
     left: 10px;
-    width: 25%;
+    width: 30%;
       }
   @include respond-max($break-6plus){
     display: none;
@@ -229,7 +232,7 @@ body {
   top: 0px;
   @include respond-max($break-medium){
     left: 10px;
-    width: 25%;
+    width: 30%;
   }
   @include respond-max($break-6plus){
     display: none;
@@ -277,7 +280,7 @@ body {
     display: none;
     @include respond-max($break-6plus){
       display: block;
-      top: 510px;
+      top: 530px;
     }
   }
   .circle {
@@ -751,7 +754,7 @@ ABOUT ME
 .about-me {
   width: 100%;
   background-color: $grey;
-  //padding-bottom: 40px;
+  padding-bottom: 20px;
   position: relative;
   min-height: 336px;
 
@@ -761,57 +764,58 @@ ABOUT ME
 }
 
 .bio{
+
   .span_4_of_12 {
     margin-top: 0;
   }
-  @include respond-max($break-large){
-
-    div.span_3_of_12 {
-      width: 25.8%;
-    }
-  }
-  @include respond-max($break-medium-3){
-    div.span_4_of_12 {
-      width: 32.26%;
-    }
-    div.span_3_of_12 {
-      width: 28.8%;
-    }
-  }
-  @include respond-max($break-medium-2){
-    div.span_4_of_12 {
-      width: 28.8%;
-    }
-    div.span_3_of_12 {
-      width: 28.8%;
-    }
-  }
-  @include respond-max($break-medium){
-    div.span_4_of_12 {
-      width: 28.8%;
-    }
-    div.span_3_of_12 {
-      width: 35%;
-    }
-  }
-  @include respond-max($break-small){
-    div.span_4_of_12 {
-      width: 45%;
-      margin-left: 55%;
-    }
-    div.span_3_of_12 {
-      display: none;
-    }
-  }
-  @include respond-max($break-6plus){
-    div.span_4_of_12 {
-      width: 45%;
-      margin: 225px 5% 0 0;
-    }
-    div.span_3_of_12 {
-      display: none;
-    }
-  }
+  //@include respond-max($break-large){
+  //
+  //  div.span_3_of_12 {
+  //    width: 25.8%;
+  //  }
+  //}
+  //@include respond-max($break-medium-3){
+  //  div.span_4_of_12 {
+  //    width: 32.26%;
+  //  }
+  //  div.span_3_of_12 {
+  //    width: 28.8%;
+  //  }
+  //}
+  //@include respond-max($break-medium-2){
+  //  div.span_4_of_12 {
+  //    width: 28.8%;
+  //  }
+  //  div.span_3_of_12 {
+  //    width: 28.8%;
+  //  }
+  //}
+  //@include respond-max($break-medium){
+  //  div.span_4_of_12 {
+  //    width: 28.8%;
+  //  }
+  //  div.span_3_of_12 {
+  //    width: 35%;
+  //  }
+  //}
+  //@include respond-max($break-small){
+  //  div.span_4_of_12 {
+  //    width: 45%;
+  //    margin-left: 55%;
+  //  }
+  //  div.span_3_of_12 {
+  //    display: none;
+  //  }
+  //}
+  //@include respond-max($break-6plus){
+  //  div.span_4_of_12 {
+  //    width: 45%;
+  //    margin: 225px 5% 0 0;
+  //  }
+  //  div.span_3_of_12 {
+  //    display: none;
+  //  }
+  //}
 }
 
 .bio p {
@@ -821,13 +825,13 @@ ABOUT ME
   line-height: 1.6em;
   margin-top: 0;
   @include respond-max($break-medium-3){
-    font-size: .9em;
+    font-size: .93em;
   }
   @include respond-max($break-medium-2){
-    font-size: .8em;
+    font-size: .91em;
   }
   @include respond-max($break-medium){
-    font-size: .7em;
+    font-size: .89em;
   }
 }
 
