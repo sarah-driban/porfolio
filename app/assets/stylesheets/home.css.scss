@@ -140,6 +140,7 @@ body {
     width: 97%;
     .fa-angle-double-right {
       font-size: 2em;
+      margin: -1px 0 0 5px;
     }
   }
   @include respond-max($break-6plus){
@@ -1064,7 +1065,7 @@ FOOTER
   @include respond-max($break-small){
     width: 15%;
     font-size: .7em;
-    height: 50px;
+    height: 52px;
     padding: 2px 0 4px 0;
   }
 }
