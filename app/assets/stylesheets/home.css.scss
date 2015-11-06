@@ -265,9 +265,7 @@ body {
 
 .hidden-nav {
 
-
-
-  .media {
+  .media2 {
     position: fixed;
     z-index:82;
     left: 15px;
@@ -348,9 +346,19 @@ STICKY TOP NAVIGATION
     @include respond-max($break-medium-2){
       font-size: 1.8em;
       margin: 8px 0 0 0;
-    }@include respond-max($break-medium){
+    }
+    @include respond-max($break-medium){
       font-size: 1.5em;
       margin: 10px 0 0 0;
+    }
+    @include respond-max($break-6plus){
+      font-size: 1.5em;
+      text-align: left;
+      margin: 15px 0 0 10%;
+    }
+    @include respond-max($break-very-small){
+      text-align: left;
+      margin: 15px 0 0 0;
     }
   }
   a {
@@ -411,6 +419,23 @@ STICKY TOP NAVIGATION
     width: 100%;
     letter-spacing: .2em;
     text-align: center;
+    @include respond-max($break-medium-2){
+      font-size: 1.8em;
+      margin: 8px 0 0 0;
+    }
+    @include respond-max($break-medium){
+      font-size: 1.5em;
+      margin: 10px 0 0 0;
+    }
+    @include respond-max($break-6plus){
+      font-size: 1.5em;
+      text-align: left;
+      margin: 15px 0 0 10%;
+    }
+    @include respond-max($break-very-small){
+      text-align: left;
+      margin: 15px 0 0 0;
+    }
   }
   a {
     color: #FFF;
@@ -1030,10 +1055,16 @@ FOOTER
     background-color: rgba(177,36,90, 1);
     @include transition(.2s);
   }
+  @include respond-max(700px){
+    width: 10%;
+    font-size: .7em;
+    height: 52px;
+    padding: 2px 0 4px 0;
+  }
   @include respond-max($break-small){
     width: 15%;
-    font-size: .5em;
-    height: 42px;
+    font-size: .7em;
+    height: 50px;
     padding: 2px 0 4px 0;
   }
 }
@@ -1043,6 +1074,11 @@ FOOTER
   position: relative;
   .col {
     margin: 0;
+  }
+  .span_1_of_12 {
+    @include respond-max($break-6plus){
+      width: 20%;
+    }
   }
 }
 
